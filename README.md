@@ -13,7 +13,7 @@ LaddleShop is an ecommerce application built for small businesses. This applicat
 
 ## Technologies
 
-Winwyse is built with love on top of the following technologies:
+LaddleShop is built with love on top of the following technologies:
   - Laravel
   - HTML
   - CSS
