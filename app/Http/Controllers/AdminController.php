@@ -21,7 +21,7 @@ class AdminController extends Controller
       $email = $request->post('email');
       $password = $request->post('password');
 
-      if ($email=='admin@laddle.io' && $password=='mainpassword') {
+      if ($email=='email' && $password=='password') {
         session()->put('adminLogin', 'active');
         $users = DB::table('users')->orderBy('id', 'desc')->simplePaginate(5);
         $info = DB::table('admin_home')->orderBy('id','desc')->limit(1)->get();
