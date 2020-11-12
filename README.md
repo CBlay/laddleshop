@@ -21,6 +21,7 @@ LaddleShop is built with love on top of the following technologies:
   - Bulma CSS
   - JSON
   - Intervention/Image
+  - Paystack Api
  
 ## Contributing
  
